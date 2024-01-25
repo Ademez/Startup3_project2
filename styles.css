@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    
+}
+
+header {
+    height: 80%;
+    width: 90%;
+    background: #2F1893;
+    margin: 10px auto;
+    text-align: center;
+}
+
+nav {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 53px 115px;
+}
+
+nav .logo {
+    color: #fff;
+    height: 36px;
+    width: 111px;
+    /* background: blue; */
+    
+}
+
+nav .nav-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .nav-items ul li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+nav .nav-items ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-items button {
+    width: 100px;
+    height: 40px;
+    background: #482BE7;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+
+}
+
+main {
+    margin-top: 20px;
+    color: #fff;
+}
+
+main .heading {
+    font-size: 1.4rem;
+}
+
+main .text {
+    margin: 20px 0px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+section{
+    margin: 30px;
+}
+section input {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 100px;
+    padding: 0 10px;
+
+}
+
+section button {
+    padding: 15px;
+    border-radius: 100px;
+    width: 100px;
+    background: #25DAC5;
+    color: #fff;
+    border: none;
+
+}
+
+aside .terms {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+/* Media Query */
+@media (max-width:2560px) {
+    nav {
+        font-size: 1.9em;
+    }
+}
